@@ -1,2 +1,77 @@
-ontouchstart/rpi-docker-hello   latest              e8d68afbb556        1 seconds ago       582.5 kB
+[{
+    "Architecture": "arm",
+    "Author": "Sam Liu \u003contouchstart@gmail.com\u003e",
+    "Comment": "",
+    "Config": {
+        "AttachStderr": false,
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "Cmd": [
+            "/hello"
+        ],
+        "CpuShares": 0,
+        "Cpuset": "",
+        "Domainname": "",
+        "Entrypoint": null,
+        "Env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+        ],
+        "ExposedPorts": null,
+        "Hostname": "223e5a0b5ee8",
+        "Image": "51997d21eed573a104a2a5136eaa0929a6d8b23d6939283e009166081ad3f866",
+        "MacAddress": "",
+        "Memory": 0,
+        "MemorySwap": 0,
+        "NetworkDisabled": false,
+        "OnBuild": [],
+        "OpenStdin": false,
+        "PortSpecs": null,
+        "StdinOnce": false,
+        "Tty": false,
+        "User": "",
+        "Volumes": null,
+        "WorkingDir": ""
+    },
+    "Container": "26400040606c91b4d056873cea9b3251b3283b3b62fdeb55eba6ed7701cdac3c",
+    "ContainerConfig": {
+        "AttachStderr": false,
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "Cmd": [
+            "/bin/sh",
+            "-c",
+            "#(nop) CMD [/hello]"
+        ],
+        "CpuShares": 0,
+        "Cpuset": "",
+        "Domainname": "",
+        "Entrypoint": null,
+        "Env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+        ],
+        "ExposedPorts": null,
+        "Hostname": "223e5a0b5ee8",
+        "Image": "51997d21eed573a104a2a5136eaa0929a6d8b23d6939283e009166081ad3f866",
+        "MacAddress": "",
+        "Memory": 0,
+        "MemorySwap": 0,
+        "NetworkDisabled": false,
+        "OnBuild": [],
+        "OpenStdin": false,
+        "PortSpecs": null,
+        "StdinOnce": false,
+        "Tty": false,
+        "User": "",
+        "Volumes": null,
+        "WorkingDir": ""
+    },
+    "Created": "2015-03-27T16:19:23.16673018Z",
+    "DockerVersion": "1.5.0",
+    "Id": "e19f0080d962de8d0af5a665d0ee25b821e9ffa5f85e91ac2bfc36dc7b0ed18f",
+    "Os": "linux",
+    "Parent": "51997d21eed573a104a2a5136eaa0929a6d8b23d6939283e009166081ad3f866",
+    "Size": 0,
+    "VirtualSize": 582524
+}
+]
 hello from rpi-docker-hello
