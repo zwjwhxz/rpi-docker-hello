@@ -5,4 +5,4 @@ docker run --rm -v $(pwd):/home -it ontouchstart/rpi-base cc -static -o hello he
 cd ..
 docker build -t ontouchstart/rpi-docker-hello . > build.log
 rm home/hello
-./test.sh
+./test.sh |tee test.log

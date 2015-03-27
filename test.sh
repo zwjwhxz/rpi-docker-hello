@@ -1,2 +1,3 @@
 #!/bin/sh
-docker run --rm  ontouchstart/rpi-docker-hello | tee test.log
+docker inspect ontouchstart/rpi-docker-hello
+docker run --rm  ontouchstart/rpi-docker-hello

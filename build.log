@@ -1,16 +1,16 @@
-Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 592.4 kB
+Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon   660 kB
 Sending build context to Docker daemon 
 Step 0 : FROM nothing
- ---> af96aa5ab308
+ ---> 7db261721ce3
 Step 1 : MAINTAINER Sam Liu <ontouchstart@gmail.com>
- ---> Running in b2a0f5c1751f
- ---> 4e49f16a105c
-Removing intermediate container b2a0f5c1751f
+ ---> Running in 73f5c2ed5bd1
+ ---> b3729049d0a3
+Removing intermediate container 73f5c2ed5bd1
 Step 2 : ADD home/hello /hello
- ---> 348eca225518
-Removing intermediate container d73fc693a734
+ ---> ac07d3ec7611
+Removing intermediate container 397ec3cbaa5c
 Step 3 : CMD /hello
- ---> Running in a245f9776752
- ---> bf5b70af7c2b
-Removing intermediate container a245f9776752
-Successfully built bf5b70af7c2b
+ ---> Running in 23c617d7b207
+ ---> e8d68afbb556
+Removing intermediate container 23c617d7b207
+Successfully built e8d68afbb556
